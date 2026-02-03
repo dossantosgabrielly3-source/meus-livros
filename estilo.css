@@ -1,16 +1,30 @@
 body {
-  background: #f6f1e7;
-  font-family: Georgia, serif;
-  text-align: center;
-  padding: 30px;
+  background: #fbf7ef;
+  color: #2b2b2b;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 22px;
+  line-height: 1.8;
+  margin: 0;
+  padding: 20px;
 }
 
-h1 {
-  font-size: 32px;
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-weight: normal;
+  text-align: center;
 }
 
 a {
-  font-size: 24px;
+  color: #444;
   text-decoration: none;
-  color: #5a3e2b;
+  font-size: 18px;
+}
+
+.menu {
+  text-align: center;
+  margin-bottom: 30px;
 }
